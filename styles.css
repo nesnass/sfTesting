@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  touch-action: none;
+}
+#canvas { 
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  z-index: 2;
+  border: 1px solid black; 
+  touch-action: none;
+  /* image-rendering:pixelated */
+}
+#floorplan {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+#container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("wiring.jpg");
+  background-repeat: no-repeat;
+}
+#controls {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+#status {
+  position: absolute;
+  top: 0;
+  right: 100px;
+  z-index: 3;
+}
